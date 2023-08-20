@@ -62,6 +62,10 @@ body {
   text-decoration: none;
 }
 
+.portafolio__none {
+  display: none;
+}
+
 .hero_navigation {
   color: var(--blue-color);
   font-family: 'Raleway';
@@ -313,7 +317,7 @@ body {
 /*botones portfolio*/
 
 .buttons__container {
-  padding-top:112px;
+  padding-top: 112px;
   padding-bottom: 56px;
 }
 
@@ -340,5 +344,3 @@ body {
   padding: 5px;
   padding-bottom: 82px;
 }
-
-

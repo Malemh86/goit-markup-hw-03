@@ -15,10 +15,6 @@ body {
   color: var(--black-color);
 }
 
-.nav_link.current {
-  color: var(--blue-color);
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -26,8 +22,7 @@ body {
 }
 
 .section__nav {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  height: 80px;
 }
 
 .section__soluciones {
@@ -86,6 +81,10 @@ body {
   cursor: pointer;
 }
 
+.nav_item .current {
+  color: var(--blue-color);
+}
+
 .nav__contacts .nav_link {
   color: var(--black-color);
   font-weight: 500;
@@ -100,6 +99,14 @@ body {
 }
 
 .nav__contacts .nav_link:hover {
+  color: var(--blue-color);
+}
+
+.nav__options .nav_link:focus {
+  color: var(--blue-color);
+}
+
+.nav__contacts .nav_link:focus {
   color: var(--blue-color);
 }
 
@@ -253,11 +260,17 @@ body {
   padding-left: 24px;
 }
 
+.header__hero {
+  border: 1px solid rgba(236, 236, 236, 1);
+}
+
 /*Estilos header del index*/
 
 .navigation__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 
 .nav__options {
@@ -317,8 +330,8 @@ body {
 /*botones portfolio*/
 
 .buttons__container {
-  padding-top: 112px;
-  padding-bottom: 56px;
+  padding-top: 106px;
+  padding-bottom: 50px;
 }
 
 .buttons__menu {
@@ -344,4 +357,3 @@ body {
   padding: 5px;
   padding-bottom: 82px;
 }
-

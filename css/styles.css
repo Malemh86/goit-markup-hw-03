@@ -45,7 +45,6 @@ body {
   padding-bottom: 60px;
 }
 
-
 .list {
   list-style: none;
 }
@@ -120,6 +119,7 @@ body {
 }
 
 .hero_texts {
+  height: 600px;
   color: var(--white-font);
   background-color: var(--background-title);
   text-align: center;
@@ -354,7 +354,6 @@ body {
   padding: 5px;
   padding-bottom: 82px;
 }
-
 
 .p-0 {
   padding: 0;
